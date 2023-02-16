@@ -1,0 +1,15 @@
+(pi/4)+(pi/3)-(pi/11)
+
+
+
+z = sqrt(exp((3*pi*1i)/5))
+
+real(z)
+imag(z)
+
+toegevoegde = conj(z)
+abs = abs(z)
+angle = angle(z)
+
+
+
