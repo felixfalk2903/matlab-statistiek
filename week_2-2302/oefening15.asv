@@ -1,0 +1,19 @@
+
+
+omtrek = 5
+
+
+ab = [0:0.001:5];
+bc = [0:0.001:5];
+ca = [0:0.001:5]; 
+maxop = [0]
+
+
+if ab + bc + ca > 4.5 & ab + bc + ca < 5.5 ;
+    maxop = ./1/2*ab*bc;
+end
+
+m = max(maxop)
+
+
+
