@@ -1,0 +1,12 @@
+
+
+clc;clear;
+t = 0: 0.01:2*pi
+r1 = 1
+r2 = 2*cos(3*t)
+
+
+polarplot(r2)
+hold on 
+polarplot(r1)
+hold off
