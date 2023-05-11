@@ -1,0 +1,11 @@
+clear;clc;
+
+
+fcdf(2,5,12)
+b = 1-tcdf(1,10)
+
+tinv(0.15,10)
+
+
+
+nrml
